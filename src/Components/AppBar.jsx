@@ -46,7 +46,7 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Rock Hard
           </Typography>
 
           <Box

@@ -90,7 +90,7 @@ const ResponsiveAppBar = () => {
                   <Typography
                     sx={{ textDecoration: "none" }}
                     component={Link}
-                    to={`${page}`}
+                    to={`Rock-Time/${page}`}
                     textAlign="center"
                   >
                     {page}
@@ -125,7 +125,7 @@ const ResponsiveAppBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
                 component={Link}
-                to={`${page}`}
+                to={`Rock-Time/${page}`}
               >
                 {page}
               </Button>

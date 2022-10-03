@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TimeToRock/static/css/main.9858b684.css",
+    "main.js": "/TimeToRock/static/js/main.b3644962.js",
+    "index.html": "/TimeToRock/index.html",
+    "main.9858b684.css.map": "/TimeToRock/static/css/main.9858b684.css.map",
+    "main.b3644962.js.map": "/TimeToRock/static/js/main.b3644962.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9858b684.css",
+    "static/js/main.b3644962.js"
+  ]
+}

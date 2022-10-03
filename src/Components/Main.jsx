@@ -29,11 +29,11 @@ const Main = () => {
         }}
       >
         <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="" element={<Navigate to="/home" />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/post/:id" element={<PostDetails />} />
+          <Route path="/Rock-Time//home" element={<Home />} />
+          <Route path="/Rock-Time/" element={<Navigate to="/home" />} />
+          <Route path="/Rock-Time//contact" element={<Contact />} />
+          <Route path="/Rock-Time//about" element={<About />} />
+          <Route path="/Rock-Time//post/:id" element={<PostDetails />} />
         </Routes>
         <NewsLetter />
       </Container>

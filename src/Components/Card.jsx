@@ -48,7 +48,7 @@ export default function ImgMediaCard({ post }) {
             selected={selected}
             onChange={() => {
               navigator.clipboard.writeText(
-                `https://mouloud-msd.github.io/post/${post.id}`
+                `https://mouloud-msd.github.io/Rock-Time/post/${post.id}`
               );
               setSelected(true);
               setTimeout(() => {

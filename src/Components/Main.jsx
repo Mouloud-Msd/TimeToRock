@@ -30,10 +30,10 @@ const Main = () => {
       >
         <Routes>
           <Route path="/home" element={<Home />} />
+          <Route path="" element={<Navigate to="/home" />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/post/:id" element={<PostDetails />} />
-          <Route path="/" element={<Navigate to="/home" />} />
         </Routes>
         <NewsLetter />
       </Container>

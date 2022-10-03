@@ -58,7 +58,11 @@ export default function ImgMediaCard({ post }) {
           >
             {selected ? "Copied !" : "Copy Link"}
           </ToggleButton>
-          <Button size="small" component={Link} to={`/post/${post.id}`}>
+          <Button
+            size="small"
+            component={Link}
+            to={`/Rock-Time/post/${post.id}`}
+          >
             Read More
           </Button>
         </CardActions>

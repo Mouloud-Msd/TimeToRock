@@ -48,7 +48,7 @@ export default function ImgMediaCard({ post }) {
             selected={selected}
             onChange={() => {
               navigator.clipboard.writeText(
-                `http://localhost:3000/post/${post.id}`
+                `https://mouloud-msd.github.io/post/${post.id}`
               );
               setSelected(true);
               setTimeout(() => {
